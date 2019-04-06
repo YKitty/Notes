@@ -4,11 +4,11 @@
 
 ### :mag:编程语言 
 
-- 
+- [c++](https://github.com/YKitty/Notes/tree/master/notes/C%2B%2B )
 
 ### ✏️算法
 
-- 
+- [算法](https://github.com/YKitty/Notes/tree/master/notes/Algorithm )
 
 ### 🎯 数据结构 
 
@@ -16,11 +16,12 @@
 
 ### 💻操作系统
 
-- 
+- [Linux](https://github.com/YKitty/Notes/tree/master/notes/Linux )
 
 ### ☁️网络
 
-- 
+- [计算机网络]()
+- [http]()
 
 ### 💾 数据库
 
@@ -31,4 +32,5 @@
 - 
 
 感谢大家的查看。
+
 
