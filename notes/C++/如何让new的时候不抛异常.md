@@ -1,6 +1,12 @@
 # nothrow和noexcept
 
-## 1. 使用std::nothrow
+
+- [nothrow和noexcept](#nothrow和noexcept)
+    - [std::nothrow](#stdnothrow)
+    - [noexcept修饰符](#noexcept修饰符)
+
+-------------
+## std::nothrow
 
 new (std::nothrow) 在分配内存失败的时候会返回一个空指针，而不是触发std::bad_alloc，可以方便进行NULL检查
 
@@ -42,15 +48,13 @@ int main()
 
 插图：nothrow
 
-![](C:\Users\0\Pictures\C++\test nothrow.png)
+![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/C%2B%2B/new%E4%B8%8D%E6%8A%9B%E5%BC%82%E5%B8%B8/test%20nothrow.png)
 
 可以看到在进行申请大的内存的时候申请不到的话，就会返回一个nullptr，从而知道new失败了，而不是抛异常，直接让程序退出
 
 从此也可以看到，对于**堆上的内存一般就是1900M左右**
 
 
-
-# 如何让函数不抛出异常
 
 ## noexcept修饰符
 
@@ -77,7 +81,7 @@ int main()
 
 结果：
 
-![](C:\Users\0\Pictures\C++\noexcept.png)
+![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/C%2B%2B/new%E4%B8%8D%E6%8A%9B%E5%BC%82%E5%B8%B8/noexcept.png)
 
 对于该函数声明为不可以抛出异常但是却抛出了异常，terminate调用中断，直接终止程序
 

@@ -1,5 +1,35 @@
 # Linux调试器-gdb使用
 
+- [Linux调试器-gdb使用](#linux调试器-gdb使用)
+    - [1. list/l 行号：](#1-listl-行号)
+    - [2. list/l  函数名：](#2-listl--函数名)
+    - [3. r或run：](#3-r或run)
+    - [4. n或next：](#4-n或next)
+    - [5. s或step：](#5-s或step)
+    - [6. break/b 行号：](#6-breakb-行号)
+    - [7. break函数名：](#7-break函数名)
+    - [8. info break：](#8-info-break)
+    - [9. finish：](#9-finish)
+    - [10. print/p ：](#10-printp-)
+    - [11. p 变量：](#11-p-变量)
+    - [12. set var：（set var 变量名=表达式）](#12-set-varset-var-变量名表达式)
+    - [13. continue（或c）：](#13-continue或c)
+    - [14. run（或r）：](#14-run或r)
+    - [15. delete breakpoint：](#15-delete-breakpoint)
+    - [16. delete breakpoint n：](#16-delete-breakpoint-n)
+    - [17. disable breakpoints：](#17-disable-breakpoints)
+    - [18. enable breakpoints：](#18-enable-breakpoints)
+    - [19. info（或i）breakpoints：](#19-info或ibreakpoints)
+    - [20. diaplay 变量名：](#20-diaplay-变量名)
+    - [21. undisplay：](#21-undisplay)
+    - [22. until X（行号）：](#22-until-x行号)
+    - [23. breaktrace（或bt）：](#23-breaktrace或bt)
+    - [24. info（或i）locals：](#24-info或ilocals)
+    - [25. quit：](#25-quit)
+    - [26. 清屏](#26-清屏)
+    - [27. 用条件表达式设置断点](#27-用条件表达式设置断点)
+    - [28.删除断点](#28删除断点)
+
 ---
 
 **开始**
