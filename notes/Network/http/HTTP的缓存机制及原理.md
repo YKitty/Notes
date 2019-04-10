@@ -1,18 +1,17 @@
 # HTTP的缓存机制及原理
 
-- [HTTP的缓存机制及原理](#http的缓存机制及原理)
-    - [前言](#前言)
-    - [HTTP报文](#http报文)
-    - [缓存规则解析](#缓存规则解析)
-    - [强制缓存](#强制缓存)
-        - [Expires](#expires)
-        - [Cache-Control](#cache-control)
-    - [对比缓存](#对比缓存)
-        - [Last-Modified：](#last-modified)
-        - [If-Modified-Since：](#if-modified-since)
-        - [Etag：](#etag)
-        - [If-None-Match:](#if-none-match)
-    - [总结](#总结)
+- [前言](#前言)
+- [HTTP报文](#http报文)
+- [缓存规则解析](#缓存规则解析)
+- [强制缓存](#强制缓存)
+    - [Expires](#expires)
+    - [Cache-Control](#cache-control)
+- [对比缓存](#对比缓存)
+    - [Last-Modified：](#last-modified)
+    - [If-Modified-Since：](#if-modified-since)
+    - [Etag：](#etag)
+    - [If-None-Match:](#if-none-match)
+- [总结](#总结)
 
 --------------
 

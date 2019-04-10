@@ -1,9 +1,8 @@
 # nothrow和noexcept
 
 
-- [nothrow和noexcept](#nothrow和noexcept)
-    - [std::nothrow](#stdnothrow)
-    - [noexcept修饰符](#noexcept修饰符)
+- [std::nothrow](#stdnothrow)
+- [noexcept修饰符](#noexcept修饰符)
 
 -------------
 ## std::nothrow

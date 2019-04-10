@@ -1,14 +1,13 @@
 # TCP，IP协议族之数字签名与HTTPS详解
 
-- [TCP，IP协议族之数字签名与HTTPS详解](#tcpip协议族之数字签名与https详解)
-    - [前言](#前言)
-    - [RSA和AES简述](#rsa和aes简述)
-        - [RSA公钥加密算法](#rsa公钥加密算法)
-        - [AES高级加密标准](#aes高级加密标准)
-    - [CA证书](#ca证书)
-    - [HTTPS安全通信机制的建立](#https安全通信机制的建立)
-        - [HTTPS简介](#https简介)
-        - [HTTPS的通信过程](#https的通信过程)
+- [前言](#前言)
+- [RSA和AES简述](#rsa和aes简述)
+    - [RSA公钥加密算法](#rsa公钥加密算法)
+    - [AES高级加密标准](#aes高级加密标准)
+- [CA证书](#ca证书)
+- [HTTPS安全通信机制的建立](#https安全通信机制的建立)
+    - [HTTPS简介](#https简介)
+    - [HTTPS的通信过程](#https的通信过程)
 
 ----------------
 
@@ -122,12 +121,3 @@ SSL的加密过程是RSA与AES混合进行的。简单概括一下，就是通�
 - END: 最后就是断开连接了。具体如下图所示：
 
   ![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/https%E7%9A%84%E5%85%A8%E8%BF%87%E7%A8%8B.jpg)
-
-
-
-
-
-
-
-
-
