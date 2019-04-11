@@ -12,7 +12,7 @@
 
 ### 🎯 数据结构 
 
-- [数据结构]()
+- [数据结构](https://github.com/YKitty/Notes/tree/master/notes/DS )
 
 ### 💻操作系统
 
