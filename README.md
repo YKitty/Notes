@@ -25,7 +25,7 @@
 
 ### 💾 数据库
 
-- [数据库]()
+- [数据库](https://github.com/YKitty/Notes/tree/master/notes/Mysql )
 
 ### 📖 其他 
 
