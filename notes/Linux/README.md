@@ -9,7 +9,7 @@
 5. [touch](https://github.com/YKitty/Notes/blob/master/notes/Linux/touch%E5%91%BD%E4%BB%A4.md )
 6. [bash别名](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%BD%BF%E7%94%A8bash%E5%88%AB%E5%90%8D.md )
 7. [好用的命令](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%B8%8B%E4%B8%80%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%9E%81%E5%85%B6%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.md )
-8. [Linux基础]()
-9. [bash详解]()
-10. [yum使用]()
+8. [Linux基础](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E5%9F%BA%E7%A1%80.md )
+9. [bash详解](https://github.com/YKitty/Notes/blob/master/notes/Linux/bash%E8%AF%A6%E8%A7%A3.md )
+10. [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/yum.md )
 
