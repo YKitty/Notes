@@ -87,3 +87,11 @@ ONBOOT=yes
 3. 在/etc/soduers中的root （ALL）=（ALL）ALL下面添加。使用gedit编辑器
    1. 用户名 （ALL）= （ALL）ALL即可退出保存
 
+## 6. inode
+
+### 6.1 使用inode号删除一个文件
+
+直接删除：**`find ./* -inum 192712179 -delete`**
+
+询问之后删除：**`find ./* -inum 1049741 -exec rm -i {} \; `**
+
