@@ -325,3 +325,56 @@ ONBOOT=yes
 |    gzip -d 压缩文件名    |     gzip -d yum.txt.gz     |        解压缩文件，不保留压缩包         |
 |     gunzip 压缩文件      |     gunzip yum.txt.gz      |        解压缩文件，不保留压缩包         |
 
+### 9.3 bz2格式
+
+|        命令         |        示例        |                含义                |
+| :-----------------: | :----------------: | :--------------------------------: |
+|    bzip2 源文件     |    bzip2 1.txt     | 压缩为.bz2格式的文件，不保留源文件 |
+|   bzip2 -k 源文件   |   zip2 -k 1.txt    |  压缩为.bz2格式的文件，保留源文件  |
+| bzip2 -d 压缩文件名 | bzip2 -d 1.txt.bz2 |             解压压缩包             |
+| bunzip2 压缩文件名  | bunzip2 1.txt.bz2  |             解压压缩包             |
+
+- **bzip不能压缩目录**
+
+### 9.4 tar
+
+#### 9.4.1 打包命令
+
+- tar -cvf 打包文件名 源文件
+
+  - -c 打包
+  - -v 显示过程
+  - -f 指定打包后的文件名
+
+- ``` C++
+  //进行打包
+  tar -cvf book.tar book
+  //采用gzip方式压缩
+  gzip book.tar
+  //采用bz2方式压缩
+  bzip2 book.tar
+  ```
+
+- **-x解打包**
+
+- ``` c++
+  tar -xvf book.tar
+  ```
+
+#### 9.4.2 压缩命令
+
+``` C++
+//将目录里所有jpg文件打包成jpg.tar
+tar -cvf jpg.tar *.jpg
+//将目录下所有jpg文件打包成jpg.tar之后，并将其使用gzip格式进行压缩，生成一个gzip压缩包，命名为jpg.tar.gz
+tar -czf jpg.tar.gz *.jpg
+//将目录下所有jpg文件打包成jpg.tar之后，并将其使用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2
+tar -cjf jpg.tar.bz2 *.jpg
+//将目录下所有的jpg文件打包成
+tar -cZf jpg.tar.Z *.jpg
+//
+
+```
+
+
+
