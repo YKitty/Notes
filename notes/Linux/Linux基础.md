@@ -363,6 +363,8 @@ ONBOOT=yes
 
 #### 9.4.2 压缩命令
 
+- **压缩**
+
 ``` C++
 //将目录里所有jpg文件打包成jpg.tar
 tar -cvf jpg.tar *.jpg
@@ -370,10 +372,29 @@ tar -cvf jpg.tar *.jpg
 tar -czf jpg.tar.gz *.jpg
 //将目录下所有jpg文件打包成jpg.tar之后，并将其使用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2
 tar -cjf jpg.tar.bz2 *.jpg
-//将目录下所有的jpg文件打包成
+//将目录下所有的jpg文件打包成jpg.tar之后，并将其使用compress压缩，生成一个uncompress压缩过的包，命名为jpg.tar.Z
 tar -cZf jpg.tar.Z *.jpg
-//
+//rar格式的压缩，需要先下载rar for Linux
+rar	a jpg.rar *.jpg
+//zip格式的压缩，需要先下载zip for Linux
+zip jpg.zip *.jpg
+```
 
+- **解压**
+
+``` C++
+//解压tar包
+tar -xvf file.tar
+//解压tar.gz
+tar -xzvf file.tar.gz
+//解压tar.bz2
+tar -xjvf file.tar.bz2
+//解压tar.Z
+tar -xZvf file.tar.Z
+//解压rar
+unrar e file.tar
+//解压zip
+unzip file.zip
 ```
 
 
