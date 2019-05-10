@@ -33,6 +33,6 @@
 - [乐观锁与悲观锁](https://github.com/YKitty/Notes/blob/master/notes/Other/%E4%B9%90%E8%A7%82%E9%94%81%E5%92%8C%E6%82%B2%E8%A7%82%E9%94%81.md )
 - [思维导图](https://github.com/YKitty/Notes/tree/master/notes/Other/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE )
 
-感谢大家的查看。
+希望大家可以从中学习到知识，可以丰富自己
 
 
