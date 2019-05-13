@@ -1,5 +1,63 @@
 # Linux基础知识
 
+- [1. 帮助](#1-帮助)
+    - [1.1 --help](#11---help)
+    - [1.2 man](#12-man)
+    - [1.3 doc](#13-doc)
+- [2. vim](#2-vim)
+- [3. 目录结构](#3-目录结构)
+- [4. 网络](#4-网络)
+    - [4.1 DNS配置](#41-dns配置)
+    - [4.2 网络配置](#42-网络配置)
+- [5. sudo命令](#5-sudo命令)
+- [6. inode](#6-inode)
+    - [6.1 使用inode号删除一个文件](#61-使用inode号删除一个文件)
+- [7. 文件处理命令](#7-文件处理命令)
+    - [7.1 mkdir](#71-mkdir)
+    - [7.2 cd](#72-cd)
+    - [7.3 pwd](#73-pwd)
+    - [7.4 rmdir](#74-rmdir)
+    - [7.5 rm](#75-rm)
+    - [7.6 cp](#76-cp)
+    - [7.7 mv](#77-mv)
+    - [7.8 ln](#78-ln)
+        - [7.8.1 硬链接特征](#781-硬链接特征)
+        - [7.8.2 软链接特征](#782-软链接特征)
+- [8. 文件搜索命令](#8-文件搜索命令)
+    - [8.1 whereis](#81-whereis)
+    - [8.2 which](#82-which)
+    - [8.3 环境变量](#83-环境变量)
+    - [8.4 find](#84-find)
+        - [8.4.1 按名称搜索(-name)](#841-按名称搜索-name)
+        - [8.4.2 通配符](#842-通配符)
+        - [8.4.3 不区分大小写(-i)](#843-不区分大小写-i)
+        - [8.4.4 按所有者搜索(-user)](#844-按所有者搜索-user)
+        - [8.4.5 按时间搜索](#845-按时间搜索)
+        - [8.4.6 按文件大小搜索(-size)](#846-按文件大小搜索-size)
+        - [8.4.7 按i节点搜索(-inum)](#847-按i节点搜索-inum)
+        - [8.4.8 综合应用](#848-综合应用)
+    - [8.5 grep](#85-grep)
+- [8. 帮助命令](#8-帮助命令)
+    - [8.1 基本用法](#81-基本用法)
+    - [8.2 关键字搜索](#82-关键字搜索)
+    - [8.3 shell内部帮助](#83-shell内部帮助)
+- [9. 压缩和解压命令](#9-压缩和解压命令)
+    - [9.1 zip格式](#91-zip格式)
+    - [9.2 gzip格式](#92-gzip格式)
+    - [9.3 bz2格式](#93-bz2格式)
+    - [9.4 tar](#94-tar)
+        - [9.4.1 打包命令](#941-打包命令)
+        - [9.4.2 压缩命令](#942-压缩命令)
+- [10. 关机重启命令](#10-关机重启命令)
+    - [10.1 shutdown](#101-shutdown)
+    - [10.2 init](#102-init)
+- [11. 查看用户系统](#11-查看用户系统)
+    - [11.1 w](#111-w)
+    - [11.2 who](#112-who)
+    - [11.3 last](#113-last)
+    - [11.4 lastlog](#114-lastlog)
+- [12. 命令的生效顺序](#12-命令的生效顺序)
+
 ----------
 
 ## 1. 帮助
@@ -68,9 +126,38 @@ Linux下编写代码就只有一个**文本编辑器vim**
 search DHCP HOST                                               
 nameserver 202.200.48.6
 nameserver 218.30.19.50
+nameserver 8.8.8.8
 ```
 
+**resolv.conf是resolver类库使用的配置文件，每当一个程序需要通过域名来访问internet上面的其它主机时，需要利用该类库将域名转换成对应的IP，然后才可进行访问.**
 
+resolv.conf文件的配置选项不多，从man文档中看了半天，不理解domain和search使用来干嘛的。这里做个解释，防止以后忘了（环境：ubuntu12.04）：
+
+**nameserver** x.x.x.x该选项用来制定DNS服务器的，可以配置多个nameserver指定多个DNS。
+
+**domain** mydomain.com这个用来指定本地的域名，在没有设置search的情况下，search默认为domain的值。这个值可以随便配，目前在我看来，domain除了当search的默认值外，没有其它用途。也就说一旦配置search，那domain就没用了。
+
+**search** google.com baidu.com该选项可以用来指定多个域名，中间用空格或tab键隔开。它是干嘛的呢？
+
+如：在没有配置该选项时，执行
+
+``` C++
+ping  new
+sping: unknown host news
+```
+
+配置search google.com baidu.com后，再执行
+
+``` C++
+#ping news
+PING news.google.com (74.125.128.101) 56(84) bytes of data.
+64 bytes from hg-in-f101.1e100.net (74.125.128.101): icmp_req=1 ttl=47time=78.9 ms
+64 bytes from hg-in-f101.1e100.net (74.125.128.101): icmp_req=2 ttl=47time=63.6 ms
+```
+
+它就去ping news.google.com了。原来当访问的域名不能被DNS解析时，resolver会将该域名加上search指定的参数，重新请求DNS，直到被正确解析或试完search指定的列表为止。
+
+由于news不能被DNS解析，所以去尝试news.google.com，被正常解析。如果没有被解析还会去尝试news.baidu.com。
 
 ### 4.2 网络配置
 
@@ -93,9 +180,18 @@ NAME=ens33
 UUID=b9d080ce-f726-41fa-9a27-ef64a6aff8d7    
 DEVICE=ens33    
 ONBOOT=yes    
+
+PEERDNS=no
+DNS1=202.200.48.6
+DNS2=218.30.19.50
+DNS3=8.8.8.8
 ```
 
+**`PEERDNS=no`**是为了在进行**`service network restart`**之后不会将DNS的配置又变回以前的配置，而自己配置的没有起作用，可以自己设置一些DNS服务器，比如国内比较好用的**114.114.114.114和国外的8.8.8.8**
 
+第二种方法：
+
+修改 **`/etc/NetworkManager/NetworkManager.conf`** 文件，在main部分添加 “dns=none” 选项：(不操作这一步，直接修改/etc/resolv.conf，重启网卡又会变回改之前的配置） 
 
 ## 5. sudo命令
 
