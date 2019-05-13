@@ -13,7 +13,7 @@
 | 序号 |                            知识点                            |                           参考                            |
 | :--: | :----------------------------------------------------------: | :-------------------------------------------------------: |
 |  1   | [跳跃表](https://github.com/YKitty/Notes/blob/master/notes/DS/%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%B7%B3%E8%B7%83%E8%A1%A8.md ) | [biu](https://mp.weixin.qq.com/s/AGPCfFg7bEiCsa5zNeCi4A ) |
-|  2   |                          [AVL树]()                           |                                                           |
+|  2   |                          [AVL树](https://github.com/YKitty/Notes/blob/master/notes/DS/AVL%E6%A0%91.md)                           |                                                           |
 
 此处，希望大家可以学好数据结构。
 
