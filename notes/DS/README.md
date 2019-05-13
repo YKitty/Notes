@@ -2,7 +2,7 @@
 
 ---------------
 
-![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/DS/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.jpg)
+![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/DS/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.png)
 
 此处是对于数据结构的学习。具有着常见的一些数据结构：**队列，栈，二叉树，堆**等
 
