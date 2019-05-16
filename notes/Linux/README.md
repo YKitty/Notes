@@ -2,7 +2,9 @@
 
 -------------
 
-此目录下是对于Linux的学习，从Linux的一下基础开始以及自己遇到的一些问题，学习到的一些知识都会记录在其中，希望大家可以从中学到知识。
+![](https://ykitty.oss-cn-beijing.aliyuncs.com/photo/Linux/Linux%20Photo/Linux.jpg)
+
+此目录下是对于Linux的学习，从Linux的一下基础开始以及自己遇到的一些问题，学习到的一些知识都会记录在其中，希望大家可以从中学到知识。 :kissing_closed_eyes: 
 
 |                             名称                             |                关键词                 |
 | :----------------------------------------------------------: | :-----------------------------------: |
@@ -16,7 +18,7 @@
 | [Linux基础](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E5%9F%BA%E7%A1%80.md ) | 目录结构、vim、网络、文件命令、解压缩 |
 | [bash详解](https://github.com/YKitty/Notes/blob/master/notes/Linux/bash%E8%AF%A6%E8%A7%A3.md ) |          !使用、通配符、man           |
 | [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/yum.md ) |                yum命令                |
-|                       [修改用户密码]()                       |             passwd、root              |
+| [修改用户密码]( https://github.com/YKitty/Notes/blob/master/notes/Linux/Centos%207.0%20%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81.md ) |             passwd、root              |
 
 参考资料：
 
