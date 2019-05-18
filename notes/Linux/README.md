@@ -8,19 +8,51 @@
 
 【注意】：本目录下所有的知识点都是在Centos 7.0下完成测试。(如在其他平台下进行测试会进行详细说明)
 
-|                             名称                             |                关键词                 |
-| :----------------------------------------------------------: | :-----------------------------------: |
-| [gdb](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E8%B0%83%E8%AF%95%E5%99%A8-gdb%E4%BD%BF%E7%94%A8.md ) |                  gdb                  |
-| [高效切换目录](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linxu%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95.md ) |                 目录                  |
-| [守护进程](https://github.com/YKitty/Notes/blob/master/notes/Linux/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B.md ) |          ps、控制终端、后台           |
-| [cpuinfo](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%B8%8B%E6%9F%A5%E7%9C%8BCPU%E4%BF%A1%E6%81%AF.md ) |             /proc/cpuinfo             |
-| [touch](https://github.com/YKitty/Notes/blob/master/notes/Linux/touch%E5%91%BD%E4%BB%A4.md ) |           时间戳，创建文件            |
-| [bash别名](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%BD%BF%E7%94%A8bash%E5%88%AB%E5%90%8D.md ) |             alias，source             |
-| [好用的命令](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%B8%8B%E4%B8%80%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%9E%81%E5%85%B6%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.md ) |           htop、tldr、iftop           |
-| [Linux基础](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E5%9F%BA%E7%A1%80.md ) | 目录结构、vim、网络、文件命令、解压缩 |
-| [bash详解](https://github.com/YKitty/Notes/blob/master/notes/Linux/bash%E8%AF%A6%E8%A7%A3.md ) |          !使用、通配符、man           |
-| [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/yum.md ) |                yum命令                |
-| [修改用户密码]( https://github.com/YKitty/Notes/blob/master/notes/Linux/Centos%207.0%20%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81.md ) |             passwd、root              |
+- **知识点**
+
+|                             名称                             |                关键词                 |                         参考资料                          |
+| :----------------------------------------------------------: | :-----------------------------------: | :-------------------------------------------------------: |
+| [守护进程](https://github.com/YKitty/Notes/blob/master/notes/Linux/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B.md ) |          ps、控制终端、后台           |                                                           |
+| [Linux基础](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E5%9F%BA%E7%A1%80.md ) | 目录结构、vim、网络、文件命令、解压缩 | [掘金]( https://juejin.im/post/5c9319c2e51d450d597ea3ff ) |
+
+
+
+- **Shell**
+
+|                             名称                             |         关键词         | 参考资料 |
+| :----------------------------------------------------------: | :--------------------: | :------: |
+| [bash别名](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%BD%BF%E7%94%A8bash%E5%88%AB%E5%90%8D.md ) | alias，source，.bashrc |          |
+| [bash详解](https://github.com/YKitty/Notes/blob/master/notes/Linux/bash%E8%AF%A6%E8%A7%A3.md ) |   !使用、通配符、man   |          |
+
+
+
+- **命令**
+
+|                             名称                             |      关键词       | 参考资料 |
+| :----------------------------------------------------------: | :---------------: | :------: |
+| [cpuinfo](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%B8%8B%E6%9F%A5%E7%9C%8BCPU%E4%BF%A1%E6%81%AF.md ) |   /proc/cpuinfo   |          |
+| [touch](https://github.com/YKitty/Notes/blob/master/notes/Linux/touch%E5%91%BD%E4%BB%A4.md ) |    -c、-t、-d     |          |
+| [好用的命令](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E4%B8%8B%E4%B8%80%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%9E%81%E5%85%B6%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.md ) | htop、tldr、iftop |          |
+
+
+
+- **工具**
+
+|                             名称                             |      关键词       | 参考资料 |
+| :----------------------------------------------------------: | :---------------: | :------: |
+| [gdb](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linux%E8%B0%83%E8%AF%95%E5%99%A8-gdb%E4%BD%BF%E7%94%A8.md ) | next、start、step |          |
+| [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/yum.md ) |   list、updates   |          |
+
+
+
+- **提高工作效率技能**
+
+|                             名称                             |      关键词       | 参考资料 |
+| :----------------------------------------------------------: | :---------------: | :------: |
+| [高效切换目录](https://github.com/YKitty/Notes/blob/master/notes/Linux/Linxu%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95.md ) | dirs、pushd、popd |          |
+| [修改用户密码]( https://github.com/YKitty/Notes/blob/master/notes/Linux/Centos%207.0%20%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81.md ) |    passwd、su     |          |
+
+
 
 参考资料：
 
