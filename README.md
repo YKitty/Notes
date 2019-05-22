@@ -5,7 +5,7 @@
 ### :mag:编程语言 
 
 - [C++](https://github.com/YKitty/Notes/tree/master/notes/C%2B%2B )
-- [Shell](https://github.com/YKitty/Notes/tree/master/notes/shell )
+- [Shell](https://github.com/YKitty/Notes/tree/master/notes/Shell  )
 
 ### ✏️算法
 
