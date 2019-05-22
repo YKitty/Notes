@@ -201,6 +201,6 @@ int main()
  */ 
 ```
 
-【注意】： [本文代码](https://github.com/YKitty/Notes/blob/master/notes/C%2B%2B/C%2B%2B11/nullptr%EF%BC%9A%E6%8C%87%E9%92%88%E7%A9%BA%E5%80%BC.md )
+【注意】： [本文代码](https://github.com/YKitty/Code/tree/master/C%2B%2BCode/C%2B%2B11/nullptr  )
 
 参考资料：深入理解C++11（书籍）
