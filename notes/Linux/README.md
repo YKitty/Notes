@@ -14,6 +14,10 @@
 | :----------------------------------------------------------: | :-----------------------------------: | :------------------------------------------------------: | :--: |
 | [守护进程](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E7%9F%A5%E8%AF%86%E7%82%B9/%E8%BF%9B%E7%A8%8B/%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B.md ) |          ps、控制终端、后台           |                                                          |      |
 | [Linux基础](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%9F%BA%E7%A1%80/Linux%E5%9F%BA%E7%A1%80.md ) | 目录结构、vim、网络、文件命令、解压缩 | [掘金](https://juejin.im/post/5c9319c2e51d450d597ea3ff ) |      |
+|                             []()                             |                                       |                                                          |      |
+|                     [安装交叉编译环境]()                     |                                       |                                                          |      |
+|                                                              |                                       |                                                          |      |
+|                                                              |                                       |                                                          |      |
 
 
 
@@ -43,8 +47,10 @@
 
 |                             名称                             |      关键词       | 参考资料 | 备注 |
 | :----------------------------------------------------------: | :---------------: | :------: | :--: |
+|                        [Centos安装]()                        |                   |          |      |
 | [gdb](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/gdb/Linux%E8%B0%83%E8%AF%95%E5%99%A8-gdb%E4%BD%BF%E7%94%A8.md ) | next、start、step |          |      |
 | [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/yum/yum.md ) |   list、updates   |          |      |
+|                    [yum源替换以及更新]()                     |                   |          |      |
 
 
 
@@ -54,6 +60,7 @@
 | :----------------------------------------------------------: | :---------------: | :------: | :--: |
 | [高效切换目录](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%80%E8%83%BD/Linxu%E5%A6%82%E4%BD%95%E9%AB%98%E6%95%88%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95.md ) | dirs、pushd、popd |          |      |
 | [修改用户密码](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%80%E8%83%BD/Centos%207.0%20%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81.md ) |    passwd、su     |          |      |
+|                         [时间同步]()                         |                   |          |      |
 
 
 
