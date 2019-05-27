@@ -48,6 +48,7 @@
 | [gdb](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/gdb/Linux%E8%B0%83%E8%AF%95%E5%99%A8-gdb%E4%BD%BF%E7%94%A8.md ) |     next、start、step      |                                                              |      |
 | [yum使用](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/yum/yum.md ) |       list、updates        |                                                              |      |
 | [yum源替换以及更新](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/yum/Centos7%20%E6%9B%BF%E6%8D%A2%20yum%20%E6%BA%90%E4%BB%A5%E5%8F%8A%E6%9B%B4%E6%96%B0.md) |     update、makecache      | [博客：深蓝至尊](https://www.cnblogs.com/shenlanzhizun/p/7683166.html) |      |
+| [curl与wget，yum和rpm的区别](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%B7%A5%E5%85%B7/yum/curl%E4%B8%8Ewget%EF%BC%8Cyum%E5%92%8Crpm%E7%9A%84%E5%8C%BA%E5%88%AB.md) |    curl、wget、rpm、yum    |                                                              |      |
 
 
 
