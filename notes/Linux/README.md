@@ -60,9 +60,9 @@
 | [修改用户密码](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E6%8A%80%E8%83%BD/Centos%207.0%20%E4%BF%AE%E6%94%B9%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81.md ) |    passwd、su     |                                                              |      |
 | [时间同步](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%9F%BA%E7%A1%80/%E8%AE%BE%E7%BD%AE%E7%B3%BB%E7%BB%9F%E6%97%B6%E9%97%B4%E5%92%8C%E7%BD%91%E7%BB%9C%E6%97%B6%E9%97%B4%E4%B8%80%E8%87%B4.md) |        ntp        | [博客：紫漪](https://blog.csdn.net/u011391839/article/details/62892020/) |      |
 
-
+对于要学习vim操作的话，可以现在Linux的Shell里面输入 **vimtutor** 进行学习vim的基本操作
 
 参考资料：
 
 1. [github表情](https://www.webfx.com/tools/emoji-cheat-sheet/)
-2. [vim教程](https://vim.ink/ )
+2. [vim教程](https://vimjc.com/ )
