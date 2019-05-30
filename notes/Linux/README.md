@@ -32,11 +32,12 @@
 
 - **命令**
 
-|                             名称                             |      关键词       | 参考资料 | 备注 |
-| :----------------------------------------------------------: | :---------------: | :------: | :--: |
-| [cpuinfo](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/Linux%E4%B8%8B%E6%9F%A5%E7%9C%8BCPU%E4%BF%A1%E6%81%AF.md  ) |   /proc/cpuinfo   |          |      |
-| [touch](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/touch%E5%91%BD%E4%BB%A4.md ) |    -c、-t、-d     |          |      |
-| [好用的命令](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/Linux%E4%B8%8B%E4%B8%80%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%9E%81%E5%85%B6%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.md) | htop、tldr、iftop |          |      |
+|                             名称                             |             关键词              |                           参考资料                           | 备注 |
+| :----------------------------------------------------------: | :-----------------------------: | :----------------------------------------------------------: | :--: |
+| [cpuinfo](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/Linux%E4%B8%8B%E6%9F%A5%E7%9C%8BCPU%E4%BF%A1%E6%81%AF.md  ) |          /proc/cpuinfo          |                                                              |      |
+| [touch](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/touch%E5%91%BD%E4%BB%A4.md ) |           -c、-t、-d            |                                                              |      |
+| [好用的命令](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/Linux%E4%B8%8B%E4%B8%80%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%9E%81%E5%85%B6%E5%A5%BD%E7%94%A8%E7%9A%84%E5%91%BD%E4%BB%A4.md) |        htop、tldr、iftop        |                                                              |      |
+| [Crontab](https://github.com/YKitty/Notes/blob/master/notes/Linux/src/%E5%91%BD%E4%BB%A4/Crontab.md) | Crontab，分钟、小时、天、月、周 | [Linux就该这么学](https://mp.weixin.qq.com/s?__biz=MzA4NzQzMzU4Mg==&mid=2652924504&idx=1&sn=a39b34ed1419c26d2ca6929df0d0208c&chksm=8bed4259bc9acb4f6b41a47e86bdb91790b70d047165ece7a2244d8d4a8f9420473ef41cb3d2&mpshare=1&scene=23&srcid=#rd) |      |
 
 
 
